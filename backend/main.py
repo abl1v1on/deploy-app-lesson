@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 def get_fastapi_app() -> FastAPI:
     app = FastAPI(
-        docs_url=None,
+        # docs_url=None,
         redoc_url=None,
     )
     app.add_middleware(
