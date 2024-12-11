@@ -5,7 +5,7 @@ import './App.css'
 
 export default function App() {
   const [items, setItems] = useState([]);
-  const baseUrl = 'http://localhost:8000';
+  const baseUrl = 'http://87.228.36.65/api';
 
   const fetchItems = () => {
     axios.get(`${baseUrl}/items`)
